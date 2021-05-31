@@ -89,6 +89,36 @@ print("here is sum of avg is", avg)
 n = int(input("enter any number:"))
 for i in range(1,n+1):
     print(n,'x',i, "=",n*i)
+    
+# 14. compute odd and even number from m to n by using for loop:
+m = int(input("enter 1st number:"))
+n = int(input("enter 2nd number:"))
+for i in range(m,n+1):
+    if(i%2==0):
+        print(i,"is even don't think more")
+    else:
+        print(i,"is odd number")
+
+# 15.compute factorial of a number:
+n = int(input("enter any number?"))
+if(n==0):
+    fact = 1
+for i in range(1,n+1):
+    fact = fact*i
+    print("factorial of",n,"is",fact)
+
+ # 16.compute this series 1 + 1/2 +1/3 +........+1/n:
+n= int(input("enter the number:"))
+sum = 0.0
+for i in range(1,n+1):
+    x = 1/i
+    sum = sum + x
+    print("your number is up to",i,"is",sum)
+
+
+
+
+
 
 
 
