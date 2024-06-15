@@ -5,7 +5,7 @@ from math import sqrt as s
 print(s(81))
 
 import sys
-print('Hi ammarah')
+print('Hi aqueeq')
 sys.exit(-1)
 
 import time
